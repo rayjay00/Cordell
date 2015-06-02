@@ -1,3 +1,7 @@
+html {
+    overflow-y: scroll;
+}
+
 body {
 
     background-color: white;
@@ -32,6 +36,7 @@ h2 {
     width: 80%;
     width: 80%;
     background-color: white;
+    padding:2%;
 
 }
 
