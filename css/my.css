@@ -1,7 +1,11 @@
 body {
 
-    background-color: lightgray;
+    background-color: white;
 
+}
+
+carousel {
+    margin: auto;
 }
 
 p {
@@ -15,6 +19,9 @@ h2 {
 
 .box {
     width: 80%;
+    left: 10%;
+    right: 10%;
+    background-color: white;
 }
 
 .container {
@@ -23,16 +30,17 @@ h2 {
     min-height: 100%;
     left: 10%;
     width: 80%;
+    width: 80%;
     background-color: white;
 
 }
 
 .header {
     position: relative;
-    top: 60px;
-    left: 55%;
+    top: 10px;
+    left: 45%;
     max-width: 40%;
-
+    margin-bottom: 10px;
 }
 
 .center {
@@ -51,15 +59,15 @@ h2 {
 }
 
 .frontTable {
+    text-align: center;
     position: relative;
-    width: 100%;
-    left: 8%;
+
 }
 
 .miniPics {
     position: relative;
     cursor: pointer;
-    width: 94%;
+    width: 95%;
 
 }
 
@@ -81,6 +89,7 @@ h2 {
     top: 0;
     left: 5%;
     max-width: 500px;
+    margin:auto;
 
 }
 
@@ -92,19 +101,19 @@ h2 {
     height: 400px;
     overflow: hidden;
     position: relative;
-    left: 6.5%;
+    left: 0%;
     background: #e6e6e6;
-    border: 20px solid #FFF;
+    border: 20px solid white;
     margin-top: 20px;
 }
 
 .slide {
     position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
     width: 80%;
     left: 76px;
-    margin: auto 0 auto;
-    top: 50%;
-    transform: translateY(-50%);
 }
 
 .slideDescription {
@@ -159,7 +168,7 @@ NAV
     background-image: url(../assets/img/paddle_next_fff.png);
 }
 
-.navPanelLeft {
+.navPannelLeft {
     position: absolute;
     top: 0;
     left: 0;
@@ -170,7 +179,7 @@ NAV
     opacity: .5;
 }
 
-.navPanelRight {
+.navPannelRight {
     position: absolute;
     top: 0;
     right: 0;
@@ -181,12 +190,12 @@ NAV
 
 }
 
-.navPanelLeft, .navPanelRight {
+.navPannelLeft, .navPannelRight {
     -webkit-transition: all linear .4s;
     transition: all linear .4s;
 }
 
-.navPanelLeft.ng-hide, .navPanelRight.ng-hide {
+.navPannelLeft.ng-hide, .navPannelRight.ng-hide {
     opacity: 0;
 }
 
